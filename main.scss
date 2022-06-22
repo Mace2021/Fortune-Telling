@@ -1,0 +1,56 @@
+$container-color: #00112f;
+$header-color:#4d0099;
+$board-color:#090d7d;
+@media (min-width: 480px) and (max-width: 979px) {
+.container{align-items: center;
+    background: $container-color;
+    text-align: center;
+    color: rgb(247, 239, 239);
+    padding: 25px 30%;
+   font-size: x-large;
+   align-content: center;
+   justify-content: center;
+    #board{
+        position: relative;
+        width: 43vw;
+      
+        background: $board-color;
+        text-align: start;
+        align-content: center;
+       
+        
+        justify-content: space-evenly;
+    }
+    label{
+margin: 10px;
+width: 45vw;
+justify-content: space-evenly;
+align-content: center;
+    }
+    input{
+        padding-inline-end: auto;
+        width: 35vw;
+        justify-content: center;
+        margin: 5px;
+        padding-right: 13%;
+        align-content: center;
+        justify-content: space-evenly;
+        
+    }
+    #output1{
+        padding: 0%;
+        height: 3.1em;
+        background: cadetblue;
+        width: 43vw;
+        justify-content: space-evenly;
+    }
+    #btn1{
+       
+        width: 55px;
+        justify-self: center;
+        margin-right: 79px;
+       
+        
+    }
+}
+}

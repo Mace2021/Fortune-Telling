@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            Fortune Telling
+        </header>
+        <p>Put your name and question and see the Fortune </p>
+        <div id="board">
+<label for="name">Name</label><br>
+<input type="text" placeholder="Name" value="" id="name" required><br>
+<label for="question">Ask me a question</label><br>
+<input type="text" placeholder="question" value="" id="question" required>
+
+
+<div id="answer">
+    <input for="button" type="button" onclick="myFun1()" id='btn1' value="Ask" required> 
+   
+    <input type="submit" value="Reload" form="hidden_form" id="btn1">
+    <form id="hidden_form" method="get"></form>
+    <p class="output" id='output1'></p>
+</div>
+        </div>
+        
+    </div>
+    <script src="mainjs.js"></script>  
+   
+</body>
+</html>
