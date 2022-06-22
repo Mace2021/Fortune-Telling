@@ -1,7 +1,7 @@
 $container-color: #00112f;
 $header-color:#4d0099;
 $board-color:#090d7d;
-@media (min-width: 480px) and (max-width: 979px) {
+@media (min-width: 480px) and (max-width: 2000px) {
 .container{align-items: center;
     background: $container-color;
     text-align: center;
